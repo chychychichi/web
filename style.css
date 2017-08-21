@@ -1,0 +1,319 @@
+/*.film-background {
+   z-index: -1;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+} */
+
+
+* {
+margin:0;
+padding:0;
+list-style:none;
+text-decoration:none;
+}
+
+.body {
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    font-size:30px;
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:darkgray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background:white;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.container{
+  padding:0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .container{
+    width: 33.33333%;
+  }
+}
+
+.container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position:absolute;
+  text-align: center;
+  padding-left:2px;
+  padding-right:2px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+
+
+
+
+.color{
+    background-color:gray;
+}
+
+
+
+.pic{
+    background-color:#000;
+    border:0;
+    color:lightblue;
+    margin: 2px solid blue;
+    font-size:20px;
+}
+
+.pic:hover {
+    color:red;}
+
+.text{
+    font-size:35px;
+    color:lightblue;
+}    
+
+.myimg {
+    border-left:lightgray;
+    border-right: lightgray;
+    border-bottom:lightgray;
+    padding: 5px;
+    margin:5px lightgray;
+    background:lightgray;
+}
+
+.myimg1 {
+    border-left:lightgray;
+    border-right: lightgray;
+    border-bottom:lightgray;
+    padding: 5px;
+    margin:5px lightgray;
+    background:white;
+}
+
+.myimg2 {
+    border-left:lightgray;
+    border-right: lightgray;
+    border-bottom:lightgray;
+    padding: 5px;
+    margin:5px lightgray;
+    background:lightgray;
+}
+
+div{
+    border-left:lightgray;
+    border-right:lightgray;
+    border-bottom:lightgray;
+    padding: 5px;
+    margin:5px lightgray;
+    color:darkgray;
+
+      }
+
+div a{
+    
+    color:lightblue;
+}
+div a:link, a:visited{
+    color:lightblue;
+}
+div a:hover{
+    color:black;
+}
+table{
+    width:100%;
+     color:darkgray;
+    background-color:black;
+    font-size:18px;
+}
+table a:link, a:visited{
+    color:lightblue
+}
+table a:hover{
+    color:blue;
+
+}
+
+
+
+
+.footer{
+
+    background:black;
+
+}
+.footer a:hover{
+    color:blue;
+}
+
+
+/*table,th{
+    color:darkgray;
+    background-color:gray;
+}*/
+
+/*
+  table#tab tr:nth-child(even){
+      background-color:darkgrey;
+  }
+
+  table#tab tr:nth-child(odd){
+      background-color:darkgrey;
+  }*/
+
+  /*table#tab th{
+      background-color:darkgrey;
+      color:solid grey;
+  }*/
+
+
+
+
